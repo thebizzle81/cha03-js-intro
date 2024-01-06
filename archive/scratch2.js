@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 const jesseBrenner = "Happy"
 console.log(jesseBrenner)
@@ -23,3 +23,4 @@ b = 25
 // if (students[0] === "Bob") {
 //     console.log(students[0] + " is in class!");
 // }
+// TEST -- This is awesome!

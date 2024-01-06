@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag for the declaration of meta tags, title, and link to stylesheets and JS file -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the project -->
+    <title>Random Password Generator</title>
+
+    <link rel="stylesheet" href="assets/css/password-generator.css">
+
+    <script src="assets/js/pw-generator.js"></script>
+</head>
+
+<!-- We'll write our code here -->
+<body>
+    <div class="pw-generator">
+        <!-- Heading for the password generator -->
+        <h2>Random Password Generator</h2>
+
+        <!-- div element for the Password box -->
+        <div class="pw-box">
+            <!-- Inner div element. The password will be displayed here. -->
+            <div class="pw-box-disp"></div>
+        </div>
+
+        <!-- Setting password length -->
+        <p>Set password length</p>
+        <div>
+            <!-- Label for number input field -->
+            <label for="length">Password Length</label>
+            <!-- input field with min, max and default length of the password -->
+            <input type="number" id="length" min="6" max="20" value="6">
+        </div>
+
+        <!-- Checkboxes to customize password generation. 
+            If checked, the same input type will be included 
+            in the generated password -->
+
+        <!-- By default, all the checkboxes will be kept checked -->
+        <!-- Atleast one of these boxes should be left checked  -->
+        <p>Select at least one of the boxes</p>
+
+        <!-- Checkbox for the symbols -->
+        <div>
+          <label for="symbols">Symbols:</label>
+          <!-- checked attribute for checkbox to keep it checked initially -->
+          <input type="checkbox" id="symbols" checked>
+        </div>
+
+        <!-- Checkbox for the numbers -->
+        <div>
+          <label for="numbers">Numbers:</label>
+          <!-- checked attribute for checkbox to keep it checked initially -->
+          <input type="checkbox" id="numbers" checked>
+        </div>
+
+        <!-- Checkbox for the lowercase letters -->
+        <div>
+          <label for="lowerCase">LowerCase:</label>
+          <!-- checked attribute for checkbox to keep it checked initially -->
+          <input type="checkbox" id="lowerCase" checked>
+        </div>
+
+        <!-- Checkbox for the uppercase letters -->
+        <div>
+          <label for="upperCase">UpperCase:</label>
+          <!-- checked attribute for checkbox to keep it checked initially -->
+          <input type="checkbox" id="upperCase" checked>
+        </div>
+
+        <!-- div container for the buttons -->
+        <div class="buttons">
+            <!-- Button to generate password -->
+            <button onclick="">Generate</button>
+            <!-- Button to copy password -->
+            <button onclick="">Copy</button>
+        </div>
+    </div>
+</body>
+
+</html>
