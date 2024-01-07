@@ -25,7 +25,7 @@ function createPassword() {
   const number = document.getElementById("number").checked;
   const symbol = document.getElementById("symbol").checked;
   if (upper + lower + number + symbol === 0) {
-    alert("Please check atleast one box!");
+    alert("Please check at least one box!");
     return;
   }
   const passwordBox = document.getElementById("passwordBox");
