@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29ab15a3-2a24-42e3-91e2-b6234e57b891" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="proportion" value="0.51934826" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2aQgdynynXeVs8K7O6fvKcstXuB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.generator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.pw-generator.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.pw-generator.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.scratch2.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jesse/bootcamp/UPENN-VIRT-FSF-PT-12-2023-U-LOLC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaCloudProjectLink">
+    <option name="lastReportId" value="R6Pvy" />
+    <option name="linkedProjectId" value="3Jemo" />
+    <option name="linkedProjectName" value="The Spiders Web" />
+    <option name="organizationId" value="AYRx2" />
+    <option name="userId" value="3JY0Y" />
+  </component>
+  <component name="QodanaHighlightedReportService">
+    <option name="cloudReportPersistedInfo">
+      <CloudReportPersistedInfo>
+        <option name="projectId" value="3Jemo" />
+        <option name="reportId" value="R6Pvy" />
+      </CloudReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jesse\bootcamp\cha03-js-intro\archive" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.pw-generator.js (1)">
+    <configuration name="pw-generator.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/archive/assets/js/pw-generator.js" working-dir="$PROJECT_DIR$/archive/assets/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="pw-generator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/pw-generator.js" working-dir="$PROJECT_DIR$/assets/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scratch2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/script.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.pw-generator.js (1)" />
+        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.pw-generator.js" />
+        <item itemvalue="Node.js.scratch2.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29ab15a3-2a24-42e3-91e2-b6234e57b891" name="Changes" comment="" />
+      <created>1704256308105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704256308105</updated>
+      <workItem from="1704256309173" duration="3814000" />
+      <workItem from="1704319090416" duration="17000" />
+      <workItem from="1704450855367" duration="7196000" />
+      <workItem from="1704465186800" duration="22000" />
+      <workItem from="1704465688798" duration="2389000" />
+      <workItem from="1704659303521" duration="6245000" />
+      <workItem from="1704931140501" duration="16000" />
+      <workItem from="1705479521176" duration="1204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
