@@ -1,0 +1,59 @@
+<!-- 2024 01 17 0423 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Random Password Generator In Javascript</title>
+    <!-- Always remember to include CSS files at the start of the HTML file, inside the HEAD section and before the BODY -->
+    <!-- Stylesheet: Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="password-generator">
+        <h2>Random Password Generator</h2>
+        <h4>Click icon to the right of the generated password to COPY your password</h4>
+        <div class="password">
+            <p id="passwordBox"></p><i class="far fa-clipboard" onclick="copyPassword()"></i>
+        </div>
+        <div>
+            <!-- I wasn't sure at first how exactly the checkBox system would work, but after a lot of online research I found some examples of the checkBox that crossed-over between the HTML and JS files for the project. Ultimately, however, doing the INPUT TYPE CHECKBOX here in the HTML made the most sense  -->
+            <label for="length">Length of Password</label>
+
+            <!-- I decided to make the smallest password (and default value) at 8 characters, with a max number of characters at 20. However, if the user types in a number higher than 20 in "Length of Password" it will still generate a password of that length. I'm not sure whether this is something I should try and prevent (i.e. limiting all passwords to between 8 and 20 characters) or whether I should leave it as is, giving the user the ability to create passwords with more than 20 characters if that is what they desire. Also, even if the user types in a number higher than 20 for Length of Password, it still includes all symbols that have been checked positively and excludes those that are unchecked (e.g. the user can manually type in 30 for Length of Password, and it will generate a 30-character password, but if the Checkbox called Symbol is unchecked, no Symbols will be included, just as if it was a "correct" password length between 8 and 20 characters. The same goes if the user types in fewer than 8 for Length of Password, all the way down to 1 character) -->
+            
+            <input type="number" id="length" min="8" max="20" value="8">
+        </div>
+        <!-- input Checkbox -->
+        <div>
+            <label for="symbol">Include Symbol</label>
+            <input type="checkbox" id="symbol" checked>
+        </div>
+        <div>
+            <label for="number">Include Number</label>
+            <input type="checkbox" id="number" checked>
+        </div>
+        <div>
+            <label for="lowerCase">Include lowerCase</label>
+            <input type="checkbox" id="lowerCase" checked>
+        </div>
+        <div>
+            <label for="upperCase">Include upperCase</label>
+            <input type="checkbox" id="upperCase" checked>
+        </div>
+        <button onclick="createPassword()">Get Random Password</button>
+    </div>
+</div>
+
+<!-- Always remember to include JavaScript at the end of the HTML document, right before the /body tag -->
+<script src="script.js"></script>
+
+</body>
+
+</html>
