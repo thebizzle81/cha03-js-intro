@@ -1,4 +1,4 @@
-// 2024 01 17 0423 //
+// 2024 01 17 1049 //
 
 // There might be a more elegant way of including all possible numbers, symbols, and letters (upperCase and lowerCase) as possible characters when the password is generated, but writing them all out by hand seemed to give me the least amount of problems
 const keys = {
