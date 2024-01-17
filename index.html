@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project - Random Password Generator In Javascript</title>
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
 </head>
 
 <body>
 <div class="container">
     <div class="password-generator">
-        <h2>Password Generator</h2>
+        <h2>Random Password Generator</h2>
+        <h4>Click icon to the right of the generated password to COPY your password</h4>
         <div class="password">
             <p id="passwordBox"></p><i class="far fa-clipboard" onclick="copyPassword()"></i>
         </div>
         <div>
-            <label for="length">Length</label>
+            <label for="length">Length of Password</label>
             <input type="number" id="length" min="6" max="20" value="6">
         </div>
         <div>
