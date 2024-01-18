@@ -1,5 +1,6 @@
   // Assignment code here
 
+  // There might be a more elegant way of including all possible numbers, symbols, and letters (upperCase and lowerCase) as possible characters when the password is generated, but writing them all out by hand seemed to give me the least amount of problems
   const keys = {
     upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
     lowerCase: "abcdefghijklmnopqrstuvwxyz",
@@ -7,6 +8,9 @@
     symbol: "!@#$%^&*()_+~\\`|}{[]:;?><,./-="
   };
 
+// Here is where the Math. features that generate random characters are Returned for storage
+// The getKey() method of the PushSubscription interface returns an ArrayBuffer representing a client public key, which can then be sent to a server and used in encrypting push message data.
+// The return statement ends function execution and specifies a value to be returned to the function caller.
   const getKey = [
     function upperCase() {
       return keys.upperCase[Math.floor(Math.random() * keys.upperCase.length)];
@@ -22,7 +26,8 @@
     }
   ];
 
-// Add event listener to generate button
+// The Challenge suggested using document.querySelector and generateBtn.addEventListener but document.getElementById seemed to work the best
+// getElementById
 generateBtn.addEventListener("click", writePassword);
 
 function createPassword() {
