@@ -9,13 +9,9 @@ That being the case, after reviewing the assignment closely, I went out into the
 
 At this point, I bookmarked and took notes on the one's I liked either visually or code-wise or both, and started pulling from some as I experimented with different combinations of my own. Ultimately, I decided to do very little styling, because for me a password generator should look and behave in a very utilitarian way. I pulled in a lot of code we weren't given and ignored some of the code we *were* given. In light of this, I might have gone outside the bounds of the assignment in terms of what type of language I used, but in the end I felt it was worth the experience.
 
-## Usage
+### Usage
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![Password Generator](assets/images/pg1.jpg)
-    ```
+![alt text](/assets/images/pg1.jpg)
 
 ### Stylesheets and other links
 
